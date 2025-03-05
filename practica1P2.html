@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Practica 1 | Parcial 2</title>
+</head>
+<body style="background-color: skyblue; font-family: Arial;">
+    <h2 align="center">Volkswagen Potosina</h2>
+    <h3 align="center">Compras online</h3>
+    
+    <fieldset>
+        <legend>Información general del cliente</legend>
+        <table>
+            <tr>
+                <td><label for="nombre">Nombre:</label></td>
+                <td><input type="text" name="nombre" id="nombre" placeholder="Nombre"></td>
+                <td><label for="apellido_paterno">Apellido paterno:</label></td>
+                <td><input type="text" name="apellido_paterno" id="apellido_paterno" placeholder="Apellido paterno"></td>
+                <td><label for="apellido_materno">Apellido materno:</label></td>
+                <td><input type="text" name="apellido_materno" id="apellido_materno" placeholder="Apellido materno"></td>
+            </tr>
+            <tr>
+                <td><label for="usuario">Nombre de usuario:</label></td>
+                <td><input type="text" name="usuario" id="usuario" placeholder="Usuario"></td>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" name="password" id="password" placeholder="Contraseña"></td>
+                <td><label for="fecha_registro">Fecha de registro:</label></td>
+                <td><input type="date" name="fecha_registro" id="fecha_registro"></td>
+            </tr>
+        </table>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Datos para factura</legend>
+        <table>
+            <tr>
+                <td><label for="pais">País:</label></td>
+                <td>
+                    <select name="pais" id="pais" size="3">
+                        <option>México</option>
+                        <option>Canadá</option>
+                        <option>Reino Unido</option>
+                        <option>Estados Unidos</option>
+                        <option>España</option>
+                    </select>
+                </td>
+                <td><label for="ciudad">Ciudad:</label></td>
+                <td>
+                    <select name="ciudad" id="ciudad" size="3">
+                        <option>San Luis Potosí</option>
+                        <option>Monterrey</option>
+                        <option>Cd. Valles</option>
+                        <option>Guadalajara</option>
+                        <option>Querétaro</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="numero_casa">Número de casa:</label></td>
+                <td><input type="text" name="numero_casa" id="numero_casa" placeholder="Número de casa"></td>
+                <td><label for="calle">Calle:</label></td>
+                <td><input type="text" name="calle" id="calle" placeholder="Calle"></td>
+            </tr>
+            <tr>
+                <td><label for="rfc">R.F.C.:</label></td>
+                <td><input type="text" name="rfc" id="rfc" placeholder="R.F.C."></td>
+                <td><label for="colonia">Colonia:</label></td>
+                <td><input type="text" name="colonia" id="colonia" placeholder="Colonia"></td>
+                <td><label for="codigo_postal">C.P.:</label></td>
+                <td><input type="text" name="codigo_postal" id="codigo_postal" placeholder="C.P."></td>
+            </tr>
+        </table>
+        <p><label for="email">E-mail:</label> <input type="email" name="email" id="email" size="50" placeholder="E-mail"></p>
+        <p><label><input type="checkbox" name="terminos"> Acepto términos y condiciones</label></p>
+        <p align="center">
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Restablecer">
+        </p>
+    </fieldset>
+    
+    <p align="right">Febrero 2025, S.L.P.</p>
+</body>
+</html>
