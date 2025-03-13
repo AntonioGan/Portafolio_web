@@ -1,0 +1,40 @@
+/*Hoja de estilos Externa*/
+body{
+	background-color: white;
+	font-family: arial, verdana, sans-serif;
+	color: black;
+}
+table{
+	width: 90%;
+	margin: auto;
+	border-collapse: collapse;
+	border: 1px solid lightgray;
+	background-color: beige;
+	caption-side: bottom;/*para la posicion de titulo*/
+}
+/*li a{}para todos los listas con un a , la coma sirve para conjuntar varias opciones */
+th,td{
+	border: 1px solid lightgray;
+}
+table tr:nth-child(odd){
+	background-color: beige;
+	color: black;
+}
+table tr:nth-child(even){
+	background-color: green;
+	color: white;
+}
+th{
+	background-color: darkgreen;
+	color: white;
+	padding: 14px;
+}
+td{
+	text-align: justify;
+	padding: 12px;
+}
+
+table tr:hover{/*o td para solo un cuadro*/
+	background-color: lightgreen;
+	color: gray;
+}
