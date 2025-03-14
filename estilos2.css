@@ -1,0 +1,35 @@
+/*Hoja de estilos Externa*/
+body{
+	background-color: beige;
+}
+
+ul{
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	width: 20%;
+	border-radius: 30px;
+}
+li a{
+	display: block;
+	background-color: lightgreen;
+	color: black;
+	padding: 5px;
+	text-decoration: none;
+}
+li a:hover{
+	display: block;
+	background-color: green;
+	color: white;
+	padding: 5px;
+	text-decoration: none;
+}
+li a.activo{
+	background-color: darkgreen;
+	color:lightgray;
+
+}
+li a:hover:not(.activo){
+	background-color: darkgreen;
+	color:lightgray;
+}
