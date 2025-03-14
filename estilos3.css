@@ -1,0 +1,57 @@
+/*Hoja de estilos Externa*/
+body{
+	background-color: beige;
+}
+h1{
+	font-family: "Emblema One",arial,calibri, cursive;
+}
+h2{
+	font-family: "Rock Salt",arial,calibri, cursive;
+}
+div.capa1{
+	margin-left: 25%;
+	padding: 12px;
+	height: 1000px;
+}
+ul{
+	list-style-type:none;
+	margin: 0;
+	padding: 0;
+	width: 20%;
+	height: 100%;
+	position: fixed;
+	background-color: lightgreen;
+	overflow: auto;
+}
+
+li a{
+	display: block;
+	background-color: lightgreen;
+	color: black;
+	padding: 5px;
+	text-decoration: none;
+}
+li a:hover{
+	display: block;
+	background-color: green;
+	color: white;
+	padding: 5px;
+	text-decoration: none;
+}
+li a.activo{
+	background-color: darkgreen;
+	color:lightgray;
+
+}
+li a:hover:not(.activo){
+	background-color: darkgreen;
+	color:lightgray;
+}
+/*para feuntes descargadas*/
+@font-face{
+	font-family:"parrafos" ;
+	src: url("Caveat/Caveat-VariableFont_wght.ttf") format("truetype");
+}
+p{
+	font-family: 'parrafos';
+}
