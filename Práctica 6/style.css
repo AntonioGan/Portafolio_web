@@ -1,0 +1,130 @@
+body {
+    font-family: "Racing Sans One", sans-serif;
+    background-color: #F8C18C;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100%;
+    max-width: 1000px;
+    background-color: #f01d10;
+    margin: 20px auto;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+header {
+    text-align: center;
+}
+
+header img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0;
+}
+
+nav button {
+    font-family: "Knewave", system-ui;
+    background-color: orange;
+    border: none;
+    padding: 8px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+section {
+    text-align: center;
+    margin: 10px 0;
+}
+
+article {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+article h3 {
+    font-size: 20px;
+}
+
+article span {
+    font-size: 22px;
+    font-weight: bold;
+    background-color: red;
+    padding: 5px;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+article img {
+    width: 100%;
+    max-width: 200px;
+}
+
+button {
+    font-family: "Knewave", system-ui;
+    background-color: yellow;
+    border: none;
+    padding: 10px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    background-color: lightgray;
+    text-align: center;
+    padding: 5px;
+    color: blue;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+aside {
+    background-color: yellow;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: bold;
+}
+
+figure img {
+    width: 350px;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+}
+
+footer button {
+    font-family: "Knewave", system-ui;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+}
+
+h2{
+    font-family: "Racing Sans One", sans-serif;
+    color: white;
+}
+
+h3{
+    font-family: "Racing Sans One", sans-serif;
+    color: white;
+}
