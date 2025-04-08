@@ -1,0 +1,57 @@
+.contenedor{
+	position: relative;
+	top: 50px;
+	background: #acef3d;
+	height: 150px;
+	z-index: 2;
+}
+.c1{
+	position: relative;
+	height: 50px;
+	left: 50px;
+	top: 25px;
+	background: beige;
+	z-index: 1;
+}
+.c2{
+	position: absolute;
+	background: blue;
+	right: 25px;
+	z-index: 1;
+	height: 150px;
+	width: 150px;
+}
+.c3{
+	position: absolute;
+	background: lightcoral;
+	width: 150px;
+	height: 150px;
+	z-index: 2;
+}
+.c4{
+	position: absolute;
+	background: #76c2ff;
+	width: 150px;
+	height: 200px;
+	top: 120px;
+	left: 50px;
+	z-index: 3;
+}
+.c5{
+	border: 2px solid #5862ff;
+	width: 200px;
+	height: 50px;
+	position: fixed;
+	background: #8e95ff;
+	bottom: 0px; /* top bottom rigth left */
+	right: 0px;
+	z-index: 4;
+}
+/* me */
+h1{
+	font-family: "Rubik Moonrocks", sans-serif;
+	/*font-family: "Rampart One", sans-serif;*/
+}
+p{
+	font-family: "Barlow Condensed", sans-serif;
+}
