@@ -1,0 +1,43 @@
+body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 20px;
+      background-color: beige;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    #mostrar {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+
+    #mostrar:hover {
+      background-color: #0056b3;
+    }
+
+    #mostrar:hover ~ .galeria {
+      display: none;
+    }
+
+    .galeria {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .imagen img {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
