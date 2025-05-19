@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Obtener datos de formularios</title>
+	<link rel="stylesheet" type="text/css" href="Java_1.css">
+	<script type="text/javascript">
+		function propina() {
+		
+		var sub = parseFloat(document.getElementById("cantidad").value);
+		var prop = parseFloat(document.getElementById("pro").value);
+
+		var propina = sub * (prop / 100);
+		var total = sub + propina;
+
+		document.getElementById("resultado").innerHTML =
+		"<br>Propina: $" + propina+
+		"<br>Total a pagar: $" + total;
+		}
+	</script>
+</head>
+<body>
+	<center>
+	<h1>Calcula tu Propina</h1>
+	<form name="formulario">
+	<label for="cantidad">Total a pagar:</label>
+	<input type="text" id="cantidad" name="cantidad" placeholder="Cantidad"><br>
+
+	<label for="pro">Porcentaje de propina:</label>
+	<select name="pro" id="pro">
+	<option value="5">5%</option>
+	<option value="10">10%</option>
+	<option value="15">15%</option>
+	<option value="20">20%</option>
+	</select><br>
+
+	<input type="button" name="envio" id="envio" value="Calcular" onclick="propina()">
+	</form>
+	</center>
+	<h2>Resultado:</h2>
+	<div id="resultado"></div>
+</body>
+</html>
