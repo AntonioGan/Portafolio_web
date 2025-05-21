@@ -1,0 +1,26 @@
+body{
+	background-color: beige;
+	font-family: arial,verdana,sans-serif;
+}
+h1{
+	font-family: "Lucida Handwriting", cursive;
+}
+img{
+	width: 200px;
+	border-radius: 10px;
+}
+input{
+	color: whitesmoke;
+	background-color: black;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 7px;
+}
+button{
+	
+	color: whitesmoke;
+	background-color: black;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 7px;
+}

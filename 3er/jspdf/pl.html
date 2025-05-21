@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagnóstico de Cubos Rubik</title>
+    <link rel="stylesheet" type="text/css" href="Java_1.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="pl.js"></script>
+</head>
+<body>
+    <h1>Diagnóstico sobre Cubos Rubik</h1>
+    <form id="diagnostico">
+        <label>1. ¿Cuántos movimientos máximos necesita un cubo 3x3 para resolverse?</label><br>
+        <input type="radio" name="q1" value="20"> 20<br>
+        <input type="radio" name="q1" value="26"> 26<br>
+        <input type="radio" name="q1" value="30"> 30<br>
+
+        <label>2. ¿Quién inventó el cubo de Rubik?</label><br>
+        <input type="radio" name="q2" value="Erno Rubik"> Erno Rubik<br>
+        <input type="radio" name="q2" value="Feliks Zemdegs"> Feliks Zemdegs<br>
+        <input type="radio" name="q2" value="Jessica Fridrich"> Jessica Fridrich<br>
+		
+		<label>3. ¿Cuál es el récord mundial actual de resolución de un cubo 3x3?</label><br>
+        <input type="radio" name="q3" value="3.47 segundos"> 3.47 segundos<br>
+        <input type="radio" name="q3" value="4.22 segundos"> 4.22 segundos<br>
+        <input type="radio" name="q3" value="5.55 segundos"> 5.55 segundos<br>
+
+        <label>4. ¿Qué método de resolución es el más utilizado por speedcubers?</label><br>
+        <input type="radio" name="q4" value="Método de Fridrich"> Método de Fridrich<br>
+        <input type="radio" name="q4" value="Método de Roux"> Método de Roux<br>
+        <input type="radio" name="q4" value="Método de Petrus"> Método de Petrus<br>
+
+        <label>5. ¿Cuántas combinaciones posibles tiene un cubo 3x3?</label><br>
+        <input type="radio" name="q5" value="43 trillones"> 43 trillones<br>
+        <input type="radio" name="q5" value="10 millones"> 10 millones<br>
+        <input type="radio" name="q5" value="100 mil"> 100 mil<br>
+
+        <br><button type="button" onclick="evaluar()">Evaluar</button>
+    </form>
+
+    <div id="resultado"></div>
+    <div id="grafico"></div>
+    <button onclick="generarPDF()">Generar PDF</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
